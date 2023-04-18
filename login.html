@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASTI SHOP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">WastiShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+       
+        <aside class="aside-visible">
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">WastiShop</h1>
+            
+            </header>
+            <nav>
+                <ul class="topnav" id="myTopnav">
+                    <li class="lista">
+                        <a href="./index.html" >Shop</a>
+                        <a href="./nosotros.html" >Nosotros</a>
+                        <a href="./login" class="active">Login</a>
+                        <a class="boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+               </nav>   
+               <div class="fondo">
+                
+               </div>  
+               
+        </aside>
+        <div class="login">
+            <div class="h2s">
+            <h2 class="activo"> INICIAR SESIÓN </h2>
+          
+            <h2 class="nonactivo"> CERRAR SESIÓN </h2>
+        </div>
+            <form>
+
+
+             
+              
+          
+              <input type="text" class="text" name="username">
+               <span class="clave">USUARIO</span>
+          
+              <br>
+              
+              <br>
+          
+              <input type="password" class="text" name="password">
+              <span class="clave">CONTRASEÑA</span>
+              <br>
+          
+              <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
+              <label for="checkbox-1-1">No cerrar sesión</label>
+              
+              <button class="signin">
+                INGRESAR
+              </button>
+          
+          
+              <hr>
+          
+              <a class="as" href="#">Olvidaste tu contraseña?</a>
+            </form>
+          
+          </div>     
+    <footer>
+        <p class="texto-footer">© 2023 PRaV </p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./main.js"></script>
+    <script src="./menu.js"></script>
+
+</body>
+</html>
